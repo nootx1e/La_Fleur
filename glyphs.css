@@ -1,0 +1,235 @@
+
+.rose1 {
+  width: 300px;
+}
+
+.rose2 {
+  width: 300px;
+}
+
+.title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 40px; 
+  margin-top: 40px;
+}
+
+
+
+h1 { 
+  color: #F4C2C2;
+  font-size: 300px;
+  text-align: center;
+  font-family: "lafleur", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  display: block;
+  padding-left: 0%;
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+  line-height: 0.9;
+}
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 5px #F4C2C2, 0 0 10px #F4C2C2, 0 0 20px #F4C2C2;
+  }
+  to {
+    text-shadow: 0 0 20px #FF69B4, 0 0 40px #FF69B4, 0 0 60px #FF69B4;
+  }
+}
+
+
+body { 
+  background-color: black; 
+  font-family: "lafleur", sans-serif;
+}
+
+  .text-box{
+      width:100vw;
+      height: 100vh;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      animation: Floating 5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+    }
+    
+    .letters{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          animation: Tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+          gap: 150px;
+    }
+
+
+    .letters span {
+      font-size: 250px;
+      font-weight: 100;
+      color: pink;
+      cursor: pointer;
+      transition: font-weight 0.4s ease-in;
+      animation: FloatingSecondary 2.5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+    }
+
+    .letters span:nth-child(1){
+      animation-delay: 1s;
+    }
+
+    .letters span:nth-child(2){
+      animation-delay: 2;
+    }
+
+    .letters span:nth-child(3){
+      animation-delay: 3s;
+    }
+
+    .letters span:nth-child(4){
+      animation-delay: 4s;
+    }
+
+    .letters span:nth-child(5){
+      animation-delay: 5s;
+    }
+
+    .letters span:nth-child(6){
+      animation-delay: 8s;
+    }
+
+    .letters span:nth-child(7){
+      animation-delay: 9s;
+    }
+
+    .letters span:nth-child(8){
+      animation-delay: 11s;
+    }
+
+    .letters span:nth-child(9){
+      animation-delay: 7s;
+    }
+
+    .letters span:nth-child(10){
+      animation-delay: 6s;
+    }
+
+    .letters span:nth-child(11){
+      animation-delay: 5s;
+    }
+
+     .letters span:nth-child(11){
+      animation-delay: 3s;
+    }
+
+     .letters span:nth-child(11){
+      animation-delay: 4s;
+    }
+
+     .letters span:nth-child(11){
+      animation-delay: 6s;
+    }
+
+     .letters span:nth-child(11){
+      animation-delay: 7s;
+    }
+
+     .letters span:nth-child(12){
+      animation-delay: 8s;
+    }
+
+     .letters span:nth-child(13){
+      animation-delay: 9s;
+    }
+
+     .letters span:nth-child(14){
+      animation-delay: 10s;
+    }
+
+     .letters span:nth-child(15){
+      animation-delay: 11s;
+    }
+
+     .letters span:nth-child(16){
+      animation-delay: 12s;
+    }
+
+     .letters span:nth-child(17){
+      animation-delay: 2s;
+    }
+
+     .letters span:nth-child(18){
+      animation-delay: 3s;
+    }
+
+     .letters span:nth-child(19){
+      animation-delay: 4s;
+    }
+
+     .letters span:nth-child(20){
+      animation-delay: 5s;
+    }
+
+     .letters span:nth-child(21){
+      animation-delay: 2s;
+    }
+
+    .letters span:nth-child(22){
+      animation-delay: 4s;
+    }
+
+     .letters span:nth-child(23){
+      animation-delay: 1s;
+    }
+
+     .letters span:nth-child(24){
+      animation-delay: 6s;
+    }
+
+     .letters span:nth-child(25){
+      animation-delay: 3s;
+    }
+
+    .letters span:nth-child(26){
+      animation-delay: 5s;
+    }
+
+
+
+
+
+    .letters span:hover{ 
+      font-weight: 700;
+      text-shadow: 0 0 20px #FF69B4, 0 0 40px #FF69B4, 0 0 60px #FF69B4;
+     }
+
+     @keyframes Floating{
+        0%{
+          transform: translate(0, 0);
+      }
+      50%{
+          transform: translate(0, 5vh);
+      }
+      100%{
+          transform: translate(0, 0);
+      }
+
+    }
+
+    @keyframes FloatingSecondary{
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50%{
+        transform: translate(0, 1vh);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+
+  }
+
+

@@ -1,0 +1,78 @@
+.rose1 {
+  width: 300px;
+}
+
+
+.rose2 {
+  width: 300px;
+}
+
+
+.title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+
+
+h1 { 
+  color: #F4C2C2;
+  font-size: 300px;
+  text-align: center;
+  font-family: "lafleur", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  display: block;
+  padding-left: 0%;
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+  line-height: 0.9;
+}
+
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 5px #F4C2C2, 0 0 10px #F4C2C2, 0 0 20px #F4C2C2;
+  }
+  to {
+    text-shadow: 0 0 20px #FF69B4, 0 0 40px #FF69B4, 0 0 60px #FF69B4;
+  }
+}
+
+
+body {
+
+		background-color: black;
+  }
+
+ 
+p {
+	font-family: "lafleur", sans-serif;
+	font-size: 60px;
+ 	color: lightpink;
+ 	text-align: center;
+  margin-top: 0px;
+}
+
+.LaFleur {
+	font-family: "lafleur", sans-serif;
+	font-size: 60px;
+ 	color: lightpink;
+ 	text-align: center;
+}
+
+.Hagrid {
+	font-family: "Hagrid";
+	font-size: 35px;
+ 	color: lightpink;
+ 	text-align: center;
+ 	line-height: 1.8;
+}
+
+
+
+
